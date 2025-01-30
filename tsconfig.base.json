@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@belverato-ui/button": ["packages/button/src/index.ts"]
+      "@belverato-ui/button": ["packages/button/src/index.ts"],
+      "@belverato-ui/grid": ["packages/grid/src/index.ts"],
+      "@belverato-ui/navbar": ["packages/navbar/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
