@@ -1,14 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './grid.module.css';
+import './Grid.css';
 
-interface GridProps {
-  rows: number;
-  columns: number;
-  children: React.ReactNode;
-}
-
-export function Grid({ rows, columns, children }: GridProps) {
+const Grid = ({ rows, columns, children }) => {
   const gridStyle = {
     display: 'grid',
     gridTemplateRows: `repeat(${rows}, 1fr)`,
@@ -17,11 +11,11 @@ export function Grid({ rows, columns, children }: GridProps) {
   };
 
   return (
-    <div className={styles['container']} style={gridStyle}>
+    <div style={gridStyle}>
       {children}
     </div>
   );
-}
+};
 
 Grid.propTypes = {
   rows: PropTypes.number.isRequired,
