@@ -17,6 +17,7 @@
     "paths": {
       "@belverato-ui/button": ["packages/button/src/index.ts"],
       "@belverato-ui/grid": ["packages/grid/src/index.ts"],
+      "@belverato-ui/hero": ["packages/hero/src/index.ts"],
       "@belverato-ui/navbar": ["packages/navbar/src/index.ts"]
     }
   },
