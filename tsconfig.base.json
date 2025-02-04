@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@belverato-ui/button": ["packages/button/src/index.ts"],
+      "@belverato-ui/footer": ["packages/footer/src/index.ts"],
       "@belverato-ui/grid": ["packages/grid/src/index.ts"],
       "@belverato-ui/header": ["packages/header/src/index.ts"],
       "@belverato-ui/hero": ["packages/hero/src/index.ts"],
